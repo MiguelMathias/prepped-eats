@@ -1,0 +1,7 @@
+{
+  "name": "prepped-eats",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
