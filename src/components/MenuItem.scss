@@ -1,0 +1,36 @@
+.menu-item-card {
+  ion-slide {
+    max-height: 200px;
+  }
+
+  ion-img {
+    object-fit: cover;
+  }
+
+  .description-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .slider-container {
+    margin: 0;
+  }
+
+  .slider-container .left-button {
+    position: absolute;
+    top: calc(50%);
+    left: calc(0%);
+  }
+
+  .slider-container .right-button {
+    position: absolute;
+    top: calc(50%);
+    right: calc(0%);
+  }
+
+  .slider-container .favorite-button {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+  }
+}

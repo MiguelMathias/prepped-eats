@@ -1,0 +1,19 @@
+ion-img {
+  object-fit: cover;
+}
+
+.slider-container {
+  margin: 0;
+}
+
+.slider-container .left-button {
+  position: absolute;
+  top: calc(50%);
+  left: calc(0%);
+}
+
+.slider-container .right-button {
+  position: absolute;
+  top: calc(50%);
+  right: calc(0%);
+}
